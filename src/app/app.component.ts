@@ -7,4 +7,17 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'TA35-Ejercicio2';
+
+  nombre: string = '';
+  email: string = '';
+  mensaje: string = '';
+  operacion: string = '';
+
+  guardar() {
+
+  }
+
+
+
+
 }
