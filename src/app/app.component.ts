@@ -8,13 +8,18 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'TA35-Ejercicio2';
 
-  nombre: string = '';
-  email: string = '';
-  mensaje: string = '';
-  operacion: string = '';
+  nombre: any = '';
+  email: any = '';
+  mensaje: any = '';
+  operacion: any = '';
 
-  guardar() {
+  constructor() {}
 
+  guardar(nombre:any, email:any, mensaje:any, operacion:any) {
+    this.nombre = nombre;
+    this.email = email;
+    this.mensaje = mensaje;
+    this.operacion = operacion;
   }
 
 
