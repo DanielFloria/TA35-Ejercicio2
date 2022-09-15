@@ -1,3 +1,3 @@
 # TA35Ejercicio2
 
-Deploy: 
+Deploy: https://master.ddjdn91b8ve4h.amplifyapp.com/
